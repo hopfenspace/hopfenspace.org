@@ -1,6 +1,24 @@
+@font-face {
+	font-family: 'Titillium Web Regular';
+    src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titillium Web Bold';
+    src: url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titillium Web Light';
+    src: url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
+	
+	font-family: "Titillium Web Regular";
 }
 
 #wrapper {
@@ -17,6 +35,7 @@ body {
 
 h1 {
 	margin: 0;
+	font-family: "Titillium Web Bold";
 }
 
 #header {
