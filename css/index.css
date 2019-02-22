@@ -38,6 +38,41 @@ h1 {
 	font-family: "Titillium Web Bold";
 }
 
-#header {
-	position: relative;
+#heading-logo {
+	max-width: 80%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	border: 2px solid black;
+	border-radius: 16px;
+	width: 80%;
+}
+
+li {
+	float: left;
+	width: 25%;
+}
+
+li a {
+	display: block;
+	padding: 20px 10px;
+	color: #EEEEEE;
+	background-color: #999999;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	border-left: 1px solid black;
+}
+
+li a:hover {
+	background-color: #222222;
+}
+
+li:first-child a {
+	border-left: none;
 }
