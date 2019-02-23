@@ -55,7 +55,7 @@ ul {
 
 li {
 	float: left;
-	width: 25%;
+	width: 33.333%;
 }
 
 li a {
@@ -66,7 +66,7 @@ li a {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.3em;
-	border-left: 1px solid black;
+	border-left: 1px solid #333333;
 }
 
 li a:hover {
