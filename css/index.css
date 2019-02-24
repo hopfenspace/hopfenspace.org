@@ -13,6 +13,9 @@
     src: url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
 }
 
+html {
+	background-color: #CCCCCC;
+}
 
 body {
 	margin: 0;
@@ -22,8 +25,6 @@ body {
 }
 
 #wrapper {
-	background-color: #CCCCCC;
-	
 	height: 100%;
 	width: 100%;
 	
@@ -104,4 +105,18 @@ li a:hover {
 
 li:first-child a {
 	border-left: none;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+	color: white;
+	background-color: black;
+	
+	text-align: center;
+	
+	font-size: 0.9em;
 }

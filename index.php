@@ -32,6 +32,9 @@
 					</li>
 				</ul>
 			</nav>
+			<footer>
+				Seiteninformationen
+			</footer>
 		</div>
 	</body>
 </html>
