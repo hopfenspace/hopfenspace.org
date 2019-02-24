@@ -35,7 +35,7 @@
 				</ul>
 			</nav>
 			<footer>
-				Seiteninformationen
+				<a href="">Seiteninformationen</a>
 			</footer>
 		</div>
 	</body>
