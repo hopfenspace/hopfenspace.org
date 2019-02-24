@@ -9,6 +9,8 @@
 		</title>
 		
         <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/linkbar.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		
 		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
 	</head>

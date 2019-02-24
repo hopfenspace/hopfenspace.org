@@ -1,0 +1,68 @@
+/*
+	Link Bar CSS
+*/
+
+#link-bar ul {
+	list-style: none;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	border: 2px solid black;
+	border-radius: 16px;
+	width: 80%;
+}
+
+#link-bar li {
+	float: left;
+}
+
+/* one item */
+#link-bar li:first-child:nth-last-child(1) {
+    width: 100%;
+}
+
+/* two items */
+#link-bar li:first-child:nth-last-child(2),
+#link-bar li:first-child:nth-last-child(2) ~ li {
+    width: 50%;
+}
+
+/* three items */
+#link-bar li:first-child:nth-last-child(3),
+#link-bar li:first-child:nth-last-child(3) ~ li {
+    width: 33.3333%;
+}
+
+/* four items */
+#link-bar li:first-child:nth-last-child(4),
+#link-bar li:first-child:nth-last-child(4) ~ li {
+    width: 25%;
+}
+
+/* five items */
+#link-bar li:first-child:nth-last-child(5),
+#link-bar li:first-child:nth-last-child(5) ~ li {
+    width: 20%;
+}
+
+#link-bar li a {
+	display: block;
+	padding: 20px 10px;
+	color: #EEEEEE;
+	background-color: #999999;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	border-left: 1px solid #333333;
+}
+
+#link-bar li a:hover {
+	background-color: #222222;
+}
+
+#link-bar li:first-child a {
+	border-left: none;
+}
