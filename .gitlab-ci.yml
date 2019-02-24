@@ -1,0 +1,14 @@
+# GitLab CI Configuration
+
+# Job that publishes everything inside the public/ directory
+# on the static project page at hopfenspace.gitlab.io/homepage
+publisher:
+    image: alpine
+    stage: deploy
+    script:
+        - echo "Nothing to do ..."
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
