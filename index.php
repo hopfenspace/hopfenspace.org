@@ -19,21 +19,19 @@
 					<img src="img/hopfenspace-base.svg" alt="Hopfenspace" id="heading-logo" />
 				</h1>
 			</div>
-			<center>
-				<nav id="link-bar">
-					<ul>
-						<li>
-							<a href="">Projekte</a>
-						</li>
-						<li>
-							<a href="https://github.com/hopfenspace">GitHub</a>
-						</li>
-						<li>
-							<a href="https://gitlab.com/hopfenspace">GitLab</a>
-						</li>
-					</ul>
-				</nav>
-			</center>
+			<nav id="link-bar">
+				<ul>
+					<li>
+						<a href="">Projekte</a>
+					</li>
+					<li>
+						<a href="https://github.com/hopfenspace">GitHub</a>
+					</li>
+					<li>
+						<a href="https://gitlab.com/hopfenspace">GitLab</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</body>
 </html>
