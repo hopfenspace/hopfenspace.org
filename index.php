@@ -35,7 +35,7 @@
 				</ul>
 			</nav>
 			<footer>
-				<a href="info">Seiteninformationen</a>
+				<a href="https://www.bn-paf.de/impressum_datenschutz/">Impressum</a>
 			</footer>
 		</div>
 	</body>
