@@ -3,16 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		
-		<title>
-			Hopfenspace
-		</title>
-		
+
+		<title>Hopfenspace</title>
+
         <link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/linkbar.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
-		
-		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
