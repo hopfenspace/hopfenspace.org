@@ -21,9 +21,6 @@
 			<nav id="link-bar">
 				<ul>
 					<li>
-						<a href="">Projekte</a>
-					</li>
-					<li>
 						<a href="https://github.com/hopfenspace">GitHub</a>
 					</li>
 					<li>
@@ -34,17 +31,20 @@
 			<div id="content">
 				<p>
 					Der Hopfenspace ist der <a href="https://de.wikipedia.org/wiki/Hackerspace">Hackerspace</a> in Pfaffenhofen a.d.Ilm.
-					Bei uns findest du Technik interessierte Menschen aus allen Bereichen, von Physik bis Informatik.
-					Zusammen basteln, programmieren, löten - erschaffen wir verschiedenste Dinge.
+					Bei uns findest du an Technik interessierte Menschen aus allen Bereichen, von Physik bis Informatik.
 					<br />
-					Wenn du Interesse hast mitzumachen wende dich an <noscript>protected mail</noscript><a id="contact"></a>
+					Zusammen basteln, programmieren, löten. Zusammen erschaffen wir erstaunliche Dinge!
+				</p>
+				<p>
+					Wenn du Interesse hast, mit zu machen, wende dich an <noscript>(protected e-mail)</noscript><a id="contact"></a>.
 					
 					<script type="text/javascript">
 						(function()
 						{
 							var el = document.getElementById("contact");
-							var c = [107, 111, 110, 116, 97, 107, 116, 64, 104, 111, 112, 102, 101, 110, 46, 115, 112, 97, 99, 101];
-							el.href = el.innerHTML = c.map(x => String.fromCharCode(x)).join("");
+							var c = [109, 97, 105, 108, 116, 111, 58, 107, 111, 110, 116, 97, 107, 116, 64, 104, 111, 112, 102, 101, 110, 46, 115, 112, 97, 99, 101];
+							el.href = c.map(x => String.fromCharCode(x)).join("");
+							el.innerHTML = c.slice(7).map(x => String.fromCharCode(x)).join("");
 						})();
 					</script>
 				</p>
