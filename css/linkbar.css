@@ -17,9 +17,14 @@
 
 #link-bar li {
 	float: left;
+	background-color: #999999;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
+	#link-bar ul {
+		height: 100px;
+	}
+
 	/* one item */
 	#link-bar li:first-child:nth-last-child(1) {
 	    width: 100%;
@@ -48,20 +53,23 @@
 	#link-bar li:first-child:nth-last-child(5) ~ li {
 	    width: 20%;
 	}
+	
+	#link-bar li a {
+		height: 100%;
+		padding-top: 20px;
+	}
 }
 
 #link-bar li a {
 	display: block;
-	padding: 20px 10px;
 	color: #EEEEEE;
-	background-color: #999999;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.3em;
 	border-left: 1px solid #333333;
 }
 
-#link-bar li a:hover {
+#link-bar li:hover {
 	background-color: #222222;
 }
 
@@ -69,7 +77,7 @@
 	border-left: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	#link-bar ul li {
 		float: none;
 		width: 100%;
@@ -78,8 +86,7 @@
 	#link-bar ul li a {
 		border-left: none;
 		border-bottom: 1px solid #333333;
-		padding-left: 0;
-		padding-right: 0;
+		padding: 10px 0;
 		width: 100%;
 	}
 	
@@ -87,3 +94,4 @@
 		border-bottom: none;
 	}
 }
+
