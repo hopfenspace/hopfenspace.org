@@ -14,50 +14,15 @@
 	border-radius: 16px;
 	width: 60%;
 }
+@media screen and (max-device-width: 1400px) {
+	#link-bar ul {
+		width: 80%;
+	}
+}
 
 #link-bar li {
 	float: left;
 	background-color: #999999;
-}
-
-@media screen and (min-width: 800px) {
-	#link-bar ul {
-		height: 100px;
-	}
-
-	/* one item */
-	#link-bar li:first-child:nth-last-child(1) {
-	    width: 100%;
-	}
-
-	/* two items */
-	#link-bar li:first-child:nth-last-child(2),
-	#link-bar li:first-child:nth-last-child(2) ~ li {
-	    width: 50%;
-	}
-
-	/* three items */
-	#link-bar li:first-child:nth-last-child(3),
-	#link-bar li:first-child:nth-last-child(3) ~ li {
-	    width: 33.3333%;
-	}
-
-	/* four items */
-	#link-bar li:first-child:nth-last-child(4),
-	#link-bar li:first-child:nth-last-child(4) ~ li {
-	    width: 25%;
-	}
-
-	/* five items */
-	#link-bar li:first-child:nth-last-child(5),
-	#link-bar li:first-child:nth-last-child(5) ~ li {
-	    width: 20%;
-	}
-	
-	#link-bar li a {
-		height: 100%;
-		padding-top: 20px;
-	}
 }
 
 #link-bar li a {
@@ -69,15 +34,30 @@
 	border-left: 1px solid #333333;
 }
 
-#link-bar li:hover {
-	background-color: #222222;
-}
-
 #link-bar li:first-child a {
 	border-left: none;
 }
 
-@media screen and (max-width: 800px) {
+#link-bar li:hover {
+	background-color: #222222;
+}
+
+@media screen and (min-device-width: 800px) {
+	#link-bar ul {
+		height: 80px;
+	}
+
+	#link-bar li {
+	    width: 25%;
+	}
+
+	#link-bar li a {
+		height: 100%;
+		padding-top: 22px;
+	}
+}
+
+@media screen and (max-device-width: 800px) {
 	#link-bar ul li {
 		float: none;
 		width: 100%;
@@ -94,4 +74,3 @@
 		border-bottom: none;
 	}
 }
-

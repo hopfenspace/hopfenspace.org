@@ -12,3 +12,9 @@
 	overflow: hidden;
     width: 60%;
 }
+
+@media screen and (max-device-width: 1400px) {
+	#content p {
+		width: 80%;
+	}
+}
