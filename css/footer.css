@@ -2,16 +2,10 @@
 	Footer CSS
 */
 
-footer a {
+#footer a {
 	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	
-	color: #FFFFFF;
-	background-color: #000000;
-	
-	text-align: center;
+	right: 5px;
+	bottom: 5px;
 	
 	font-size: 0.9em;
 }
