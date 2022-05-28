@@ -1,16 +1,16 @@
 @font-face {
 	font-family: 'Titillium Web Regular';
-    src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
+	src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Titillium Web Bold';
-    src: url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
+	font-family: 'Titillium Web Bold';
+	src: url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Titillium Web Light';
-    src: url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
+	font-family: 'Titillium Web Light';
+	src: url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
 }
 
 html {
@@ -20,14 +20,12 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	
 	font-family: "Titillium Web Regular";
 }
 
 #wrapper {
 	height: 100%;
 	width: 100%;
-	
 	margin: 0;
 	padding: 0;
 }
@@ -40,4 +38,102 @@ h1 {
 
 #heading-logo {
 	max-width: 70%;
+}
+
+#content p {
+	margin: 0;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	padding: 0;
+	overflow: hidden;
+	width: 60%;
+}
+
+@media screen and (max-device-width: 1400px) {
+	#content p {
+		width: 80%;
+	}
+}
+
+#footer a {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	font-size: 0.9em;
+}
+
+#link-bar ul {
+	list-style: none;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	border: 2px solid black;
+	border-radius: 16px;
+	width: 60%;
+}
+
+@media screen and (max-device-width: 1400px) {
+	#link-bar ul {
+		width: 80%;
+	}
+}
+
+#link-bar li {
+	float: left;
+	background-color: #999999;
+}
+
+#link-bar li a {
+	display: block;
+	color: #EEEEEE;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	border-left: 1px solid #333333;
+}
+
+#link-bar li:first-child a {
+	border-left: none;
+}
+
+#link-bar li:hover {
+	background-color: #222222;
+}
+
+@media screen and (min-device-width: 800px) {
+	#link-bar ul {
+		height: 80px;
+	}
+
+	#link-bar li {
+	    width: 25%;
+	}
+
+	#link-bar li a {
+		height: 100%;
+		padding-top: 22px;
+	}
+}
+
+@media screen and (max-device-width: 800px) {
+	#link-bar ul li {
+		float: none;
+		width: 100%;
+	}
+
+	#link-bar ul li a {
+		border-left: none;
+		border-bottom: 1px solid #333333;
+		padding: 10px 0;
+		width: 100%;
+	}
+	
+	#link-bar ul li:last-child a {
+		border-bottom: none;
+	}
 }
