@@ -1,59 +1,77 @@
-@font-face {
-	font-family: 'Titillium Web Regular';
-	src: url('../fonts/TitilliumWeb-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Titillium Web Bold';
-	src: url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Titillium Web Light';
-	src: url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
-}
-
-html {
-	background-color: #CCCCCC;
+:root {
+	--background: #121212;
+	--foreground: #212121;
+	--imageground: #303030;
+	--text: #CCCCCC;
+	--border: #555555;
+	--primary: #A5D6A7;
+	--primary-light: #E8F5E9;
+	--primary-dark: #66BB6A;
 }
 
 body {
 	margin: 0;
-	padding: 0;
-	font-family: "Titillium Web Regular";
-}
-
-#wrapper {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-h1 {
-	margin: 0;
+	color: var(--text);
+	background-color: var(--background);
+	font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue", sans-serif;
 	text-align: center;
-	font-family: "Titillium Web Bold";
 }
 
-#heading-logo {
-	max-width: 70%;
+a {
+	color: var(--primary);
+	cursor: pointer;
+	transition: color ease-in-out 200ms;
+	text-decoration: none;
 }
 
-#content p {
-	margin: 0;
-	margin-top: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 1.5em;
+a:hover {
+	color: var(--primary-dark);
+}
+
+.hidden {
+	display: none;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.logo {
+	background-color: var(--foreground);
+}
+
+.heading-logo {
+	max-width: 50%;
+	margin-top: 1.3em;
+	background-color: var(--imageground);
+}
+
+.content {
+	width: 60%;
+	text-align: left;
+	transform: translate(33%, 0%);
+	background-color: var(--foreground);
+}
+
+.content p {
+	margin: 1em auto 0;
+	font-size: 1.3em;
 	padding: 0;
 	overflow: hidden;
-	width: 60%;
+	width: 80%;
 }
 
-@media screen and (max-device-width: 1400px) {
-	#content p {
-		width: 80%;
+.content p:first-child {
+	padding-top: 1.3em;
+}
+
+.content p:last-child {
+	padding-bottom: 1.3em;
+}
+
+@media screen and (min-width: 1400px) {
+	.content p {
+		width: 60%;
 	}
 }
 
@@ -62,78 +80,4 @@ h1 {
 	right: 5px;
 	bottom: 5px;
 	font-size: 0.9em;
-}
-
-#link-bar ul {
-	list-style: none;
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333333;
-	border: 2px solid black;
-	border-radius: 16px;
-	width: 60%;
-}
-
-@media screen and (max-device-width: 1400px) {
-	#link-bar ul {
-		width: 80%;
-	}
-}
-
-#link-bar li {
-	float: left;
-	background-color: #999999;
-}
-
-#link-bar li a {
-	display: block;
-	color: #EEEEEE;
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.3em;
-	border-left: 1px solid #333333;
-}
-
-#link-bar li:first-child a {
-	border-left: none;
-}
-
-#link-bar li:hover {
-	background-color: #222222;
-}
-
-@media screen and (min-device-width: 800px) {
-	#link-bar ul {
-		height: 80px;
-	}
-
-	#link-bar li {
-	    width: 25%;
-	}
-
-	#link-bar li a {
-		height: 100%;
-		padding-top: 22px;
-	}
-}
-
-@media screen and (max-device-width: 800px) {
-	#link-bar ul li {
-		float: none;
-		width: 100%;
-	}
-
-	#link-bar ul li a {
-		border-left: none;
-		border-bottom: 1px solid #333333;
-		padding: 10px 0;
-		width: 100%;
-	}
-	
-	#link-bar ul li:last-child a {
-		border-bottom: none;
-	}
 }
