@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -46,8 +46,8 @@
 				<script type="text/javascript">
 					(function()
 					{
-						var element = document.getElementById("contact");
-						var addr = [107, 111, 110, 116, 97, 107, 116, 64, 104, 111, 112, 102, 101, 110, 46, 115, 112, 97, 99, 101];
+						let element = document.getElementById("contact");
+						let addr = [107, 111, 110, 116, 97, 107, 116, 64, 104, 111, 112, 102, 101, 110, 46, 115, 112, 97, 99, 101];
 						addr = addr.map(x => String.fromCharCode(x)).join("");
 						element.href = "mailto:" + addr;
 						element.innerHTML = addr;
