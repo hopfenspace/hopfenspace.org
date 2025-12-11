@@ -37,7 +37,7 @@ h1 {
 }
 
 #heading-logo {
-	max-width: 70%;
+	max-width: min(320px, 70%);
 }
 
 #content p {
