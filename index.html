@@ -42,7 +42,9 @@
 					Zusammen basteln, programmieren, löten &ndash; Zusammen erschaffen wir erstaunliche Dinge!
 				</p>
 				<p>
-					Wenn du Interesse hast, mit zu machen, wende dich an <noscript>(protected e-mail)</noscript><a id="contact"></a>.
+					Wenn du Interesse hast, mit zu machen, wende dich an <noscript>(protected e-mail)</noscript><a id="contact"></a>
+					oder trete dem Gruppenchat <noscript>(protected link)</noscript><a id="matrix-room"></a> bei.
+					Zudem haben wir offene Treffen immer am ersten Donnerstag jedes Monats ab 19:00 Uhr.
 					<script type="text/javascript">
 						(function()
 						{
@@ -50,6 +52,14 @@
 							var addr = [107, 111, 110, 116, 97, 107, 116, 64, 104, 111, 112, 102, 101, 110, 46, 115, 112, 97, 99, 101];
 							addr = addr.map(x => String.fromCharCode(x)).join("");
 							element.href = "mailto:" + addr;
+							element.innerHTML = addr;
+						})();
+						(function()
+						{
+							var element = document.getElementById("matrix-room");
+							var addr = [35, 112, 117, 98, 108, 105, 99, 58, 109, 97, 116, 114, 105, 120, 46, 104, 111, 112, 102, 101, 110, 115, 112, 97, 99, 101, 46, 111, 114, 103];
+							addr = addr.map(x => String.fromCharCode(x)).join("");
+							element.href = "https://matrix.to/#/" + addr;
 							element.innerHTML = addr;
 						})();
 					</script>
